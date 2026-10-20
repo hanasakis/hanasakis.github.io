@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>李建宇 · 大模型应用与算法工程师 | 个人主页</title>
+<meta name="description" content="李建宇的个人主页：武汉理工大学 × 法国 EFREI 数据、人工智能与云专业硕士在读，专注 RAG 检索增强、Agent 编排与多模态大模型微调（LoRA / SFT），具备大数据分析与服务端工程实习经历。">
+<meta name="theme-color" content="#07090d">
+<meta property="og:title" content="李建宇 · 大模型应用与算法工程师">
+<meta property="og:description" content="RAG / Agent / 多模态微调 —— 让大模型在真实业务里可靠地工作。">
+<meta property="og:type" content="profile">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">跳到主要内容</a>
+
+<header class="topbar">
+  <a class="brand" href="#top">
+    <span class="brand-cn">李建宇</span>
+    <span class="brand-en mono">JIANYU&nbsp;LI</span>
+  </a>
+  <nav class="topnav" aria-label="页面导航">
+    <a href="#about">关于</a>
+    <a href="#skills">技能</a>
+    <a href="#experience">经历</a>
+    <a href="#projects">项目</a>
+    <a href="#education">教育</a>
+    <a href="#contact" class="nav-cta">联系</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true"><img src="assets/hero.png" alt=""></div>
+    <div class="hero-copy">
+      <p class="eyebrow mono"><span class="pulse" aria-hidden="true"></span>硕士在读 · 2027.04 毕业 · 可实习 / 可远程</p>
+      <h1>李建宇</h1>
+      <p class="decode mono" data-text="LLM APPLICATION &amp; ALGORITHM ENGINEER" aria-label="LLM application and algorithm engineer">&nbsp;</p>
+      <p class="role">大模型应用与算法工程师<span class="sep" aria-hidden="true">/</span><span class="role-tags">RAG · Agent · 多模态微调</span></p>
+      <p class="lede">武汉理工大学 × 法国 EFREI「数据、人工智能与云」专业硕士在读。我把大模型当作一个需要被工程化约束的系统：用检索给它事实，用评测给它边界，用微调给它领域直觉。</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="mailto:fsnn@vip.qq.com">与我联系</a>
+        <a class="btn ghost" href="#experience">查看实习经历</a>
+      </div>
+      <ul class="hero-meta mono">
+        <li><span class="k">mail</span><a href="mailto:fsnn@vip.qq.com">fsnn@vip.qq.com</a></li>
+        <li><span class="k">github</span><a href="https://github.com/hanasakis" target="_blank" rel="noopener">github.com/hanasakis</a></li>
+        <li><span class="k">base</span><span>武汉 / 深圳</span></li>
+      </ul>
+    </div>
+    <div class="hero-side">
+      <figure class="badge">
+        <i class="corner tl" aria-hidden="true"></i><i class="corner tr" aria-hidden="true"></i>
+        <i class="corner bl" aria-hidden="true"></i><i class="corner br" aria-hidden="true"></i>
+        <div class="photo">
+          <img src="assets/profile.jpg" alt="李建宇的个人照片" width="1024" height="1024">
+        </div>
+        <figcaption class="badge-meta mono">
+          <span class="bm-name">LI JIANYU / 李建宇</span>
+          <span class="bm-line">llm · rag · agent · vlm</span>
+          <span class="bm-line dim">born 2002.10.17 · whut × efrei</span>
+        </figcaption>
+        <span class="float-chip fc-1 mono" aria-hidden="true">rag</span>
+        <span class="float-chip fc-2 mono" aria-hidden="true">langgraph</span>
+        <span class="float-chip fc-3 mono" aria-hidden="true">lora · sft</span>
+        <span class="float-chip fc-4 mono" aria-hidden="true">auc 0.86</span>
+      </figure>
+      <div class="term">
+        <div class="term-bar"><i aria-hidden="true"></i><i aria-hidden="true"></i><i aria-hidden="true"></i><span class="mono">lijianyu@whut: ~</span></div>
+        <div class="term-body mono" id="term" aria-label="终端窗口：个人简介"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section" id="about">
+    <header class="section-head">
+      <span class="idx mono">01</span>
+      <h2>关于我</h2>
+    </header>
+    <div class="about-grid">
+      <p class="about-lede">
+        我是一名专注于大模型应用落地的工程师，工作横跨<strong>检索增强生成（RAG）</strong>、<strong>智能体（Agent）编排</strong>与<strong>多模态模型微调</strong>。
+        日常用 LangGraph 与 Deep Agents 搭建多步推理链路，用 Dify + Ollama 快速验证业务原型，以 Milvus / Chroma 承载向量检索；
+        在模型侧完成过基于 LoRA 的监督微调与 SFT 训练，熟悉提示词工程、混合检索与 Rerank 等抑制幻觉的手段。
+        底层能力建立在 TensorFlow / PyTorch 与 Hive、Spark、Hadoop 大数据栈之上，长期在 Linux 环境中开发与部署。
+      </p>
+      <ul class="facts">
+        <li class="fact">
+          <span class="fact-k mono">education</span>
+          <span class="fact-v">武汉理工大学 × EFREI 硕士在读<br><em>数据、人工智能与云</em></span>
+        </li>
+        <li class="fact">
+          <span class="fact-k mono">cert</span>
+          <span class="fact-v">阿里云 ACP 认证<br><em>大数据分析师</em></span>
+        </li>
+        <li class="fact">
+          <span class="fact-k mono">language</span>
+          <span class="fact-v">雅思 6.0<br><em>英文论文与文档读写</em></span>
+        </li>
+        <li class="fact">
+          <span class="fact-k mono">focus</span>
+          <span class="fact-v">RAG / Agent / VLM 微调<br><em>检索质量与评测闭环</em></span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="section" id="skills">
+    <header class="section-head">
+      <span class="idx mono">02</span>
+      <h2>专业技能</h2>
+    </header>
+    <div class="skill-grid">
+      <div class="skill-group">
+        <h3>大模型应用<span class="mono">llm&nbsp;apps</span></h3>
+        <ul class="chips">
+          <li>Deep Agents</li><li>LangGraph</li><li>RAG</li>
+          <li>Dify &amp; Ollama</li><li>Milvus &amp; Chroma</li><li>Harness Engineering</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>训练与对齐<span class="mono">training</span></h3>
+        <ul class="chips">
+          <li>LoRA 微调</li><li>SFT &amp; RL &amp; Agents</li><li>Claude &amp; Codex</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>深度学习框架<span class="mono">frameworks</span></h3>
+        <ul class="chips">
+          <li>TensorFlow</li><li>PyTorch</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>大数据与工程<span class="mono">data&nbsp;&amp;&nbsp;infra</span></h3>
+        <ul class="chips">
+          <li>Hive</li><li>Spark</li><li>Hadoop</li><li>Linux</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>认证与语言<span class="mono">credentials</span></h3>
+        <ul class="chips">
+          <li>阿里云 ACP 大数据分析师</li><li>雅思 6.0</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section class="section" id="experience">
+    <header class="section-head">
+      <span class="idx mono">03</span>
+      <h2>实习经历</h2>
+    </header>
+
+    <ol class="timeline">
+
+      <li class="job">
+        <header class="job-head">
+          <div>
+            <h3>深圳北斗应用技术研究院</h3>
+            <p class="job-role">大模型算法工程师（实习）<span class="solo mono">独立负责 · 独立完成</span></p>
+          </div>
+          <p class="job-when mono">2026.03 — 至今</p>
+        </header>
+        <ul class="job-points">
+          <li><strong>业务链路与数据基建：</strong>针对深圳地铁安防横幅识别需求排查现有链路，从历史监控视频抽取正样本，深度挖掘历史误报预警（条形广告牌、条纹衣物等）构建 Hard Negative 难负样本集，累计产出 <strong class="num">8,600+</strong> 条指令模板标注数据，用于 VLM 微调与评估。</li>
+          <li><strong>多模态大模型微调（LoRA + SFT）：</strong>独立完成基于 InternVL3-8B 的算法迭代：引入 LoRA 低秩自适应监督微调，冻结主干、仅训练约 <strong class="num">1.6%</strong> 参数，在有限算力下对齐「人物肢体动作」与「横幅特征」的语义关系，正样本召回率由 <strong class="num">71.4%</strong> 提升至 <strong class="num">94.2%</strong>。</li>
+          <li><strong>提示词工程与推理优化：</strong>设计结构化 System Prompt 与 Few-shot 示例强制规范输出格式；针对监控小目标优化动态分辨率切片策略并下调 Temperature 抑制幻觉，负样本误报率由 <strong class="num">23.5%</strong> 降至 <strong class="num">6.8%</strong>。</li>
+          <li><strong>评估与迭代闭环：</strong>建立 Benchmark 对比「纯 Prompt」与「LoRA 微调」两版模型的召回率与误报率，结合业务 ROI 输出模型部署或继续迭代的决策建议。</li>
+        </ul>
+        <ul class="tags mono"><li>InternVL3-8B</li><li>LoRA</li><li>SFT</li><li>VLM</li><li>Prompt Engineering</li></ul>
+      </li>
+
+      <li class="job">
+        <header class="job-head">
+          <div>
+            <h3>安徽芯合嘉盛科技股份有限公司</h3>
+            <p class="job-role">服务端开发工程师</p>
+          </div>
+          <p class="job-when mono">2025.03 — 2025.09</p>
+        </header>
+        <ul class="job-points">
+          <li><strong>RAG 系统后端架构：</strong>主导半导体文档 RAG（检索增强生成）系统服务端开发，基于 Python（FastAPI / Flask）设计并实现文档上传、文本向量化、知识库管理等 RESTful API。</li>
+          <li><strong>知识库数据 Pipeline：</strong>针对半导体 PDF / 表格格式复杂、专业术语密集的痛点设计清洗与切分策略，调用 Embedding 模型完成向量化，并集成 Milvus / Chroma 实现知识片段的高效存储与相似度检索。</li>
+          <li><strong>检索与生成链路：</strong>打通「用户 Query → 向量检索 → Prompt 拼接 → LLM 生成」完整链路，优化 Chunking 策略与 Prompt 模板后，专业问题回答准确率由 <strong class="num">62%</strong> 提升至 <strong class="num">89%</strong>。</li>
+          <li><strong>性能与体验优化：</strong>以 SSE（Server-Sent Events）实现生成内容流式输出，首字等待时间由 <strong class="num">4.2s</strong> 降至 <strong class="num">0.9s</strong>；引入关键词 + 向量混合检索与 Rerank 重排，显著减少模型幻觉。</li>
+        </ul>
+        <ul class="tags mono"><li>FastAPI</li><li>RAG</li><li>Milvus / Chroma</li><li>SSE</li><li>Hybrid Retrieval</li></ul>
+      </li>
+
+      <li class="job">
+        <header class="job-head">
+          <div>
+            <h3>深圳市掘易尔科技有限公司</h3>
+            <p class="job-role">数据分析工程师</p>
+          </div>
+          <p class="job-when mono">2024.06 — 2025.01</p>
+        </header>
+        <ul class="job-points">
+          <li><strong>数据清洗与画像构建：</strong>面向跨境电商独立站（睡眠按摩眼罩类目），使用 SQL（MariaDB）对站内埋点、GA4 与广告投放数据进行多表关联与宽表提取，用 Pandas 完成清洗与异常值处理，构建地域、设备偏好、活跃时段等多维用户画像。</li>
+          <li><strong>漏斗分析与业务诊断：</strong>搭建「曝光 — 点击 — 加购 — 支付」全链路转化漏斗，定位加购 → 支付为核心流失环节（流失率 <strong class="num">68%</strong>）；基于夜间访问特征（22:00–01:00 流量占比 <strong class="num">43%</strong>）为独立站 UI 优化与投放时段策略提供数据支撑。</li>
+          <li><strong>机器学习建模（高潜预测）：</strong>衍生「加购未支付次数」「夜间访问时长占比」等特征，使用 Scikit-learn 训练并调优 XGBoost / 随机森林，测试集 AUC <strong class="num">0.86</strong>、F1 <strong class="num">0.79</strong>，输出高潜用户标签包。</li>
+          <li><strong>策略落地与赋能：</strong>以 AUC / F1 筛选最优模型，将高潜用户包同步至 EDM 邮件营销系统并协助优化投放策略，站内转化率提升 <strong class="num">18.6%</strong>，EDM 渠道下单转化率提升 <strong class="num">31.4%</strong>。</li>
+        </ul>
+        <ul class="tags mono"><li>SQL / MariaDB</li><li>Pandas</li><li>XGBoost</li><li>GA4</li><li>用户画像</li></ul>
+      </li>
+
+    </ol>
+  </section>
+
+  <!-- ================= PROJECT ================= -->
+  <section class="section" id="projects">
+    <header class="section-head">
+      <span class="idx mono">04</span>
+      <h2>项目经历</h2>
+    </header>
+
+    <article class="project">
+      <header class="project-head">
+        <h3>警用知识库智能体<span class="project-sub">RAG 检索调优与优化</span></h3>
+        <p class="project-when mono">主导开发</p>
+      </header>
+      <p class="project-lede">为提升基层民警处理事件时查询法律法规与警务文档的效率，主导开发并调优警用知识库智能体，解决传统检索精准度低、大模型易产生幻觉的问题。</p>
+      <ul class="job-points">
+        <li><strong>多库隔离与智能路由：</strong>针对警务文档类型繁杂的痛点，将知识库拆分为表格库、法律条文库与 PDF 文档库，设计意图识别与路由机制（Query Routing），确保用户 Query 精准分发至对应子库检索。</li>
+        <li><strong>定制化检索策略：</strong>法律条文库引入混合检索（向量 + BM25）与元数据过滤保证条款精确匹配；表格数据优化解析策略并转换为 Markdown 结构化格式，保留行列语义；PDF 库采用基于语义边界的智能切分（Semantic Chunking）。</li>
+        <li><strong>Embedding 更新与参数调优：</strong>完成新一代 Embedding 语义模型的热更新上线，提升领域术语的向量表征能力；动态调整 Top-K 与相似度阈值过滤低质量召回，有效降低大模型幻觉。</li>
+        <li><strong>业务成效：</strong>优化后文档检索准确率由 <strong class="num">78%</strong> 提升至 <strong class="num">95%</strong>，民警平均查阅时间由约 <strong class="num">6 分钟</strong> 缩短至 <strong class="num">40 秒</strong>，显著提升警务处理效率。</li>
+      </ul>
+      <ul class="tags mono"><li>Query Routing</li><li>BM25 + 向量</li><li>Semantic Chunking</li><li>Metadata 过滤</li><li>Embedding 热更新</li></ul>
+    </article>
+
+    <article class="project">
+      <header class="project-head">
+        <h3>图码联侦智能体<span class="project-sub">深圳地铁轨道交通 · 基于 Dify 与 MCP</span></h3>
+        <p class="project-when mono">北斗实习 · 独立开发</p>
+      </header>
+      <p class="project-lede">面向轨道交通安全管理场景，针对人员信息分散、跨系统检索繁琐的痛点，在深圳北斗应用技术研究院实习期间独立开发「图码联侦」智能体，将底层多源异构数据整合为统一的自然语言对话入口，支撑人员核验与轨迹追踪。</p>
+      <ul class="job-points">
+        <li><strong>Agent 工作流编排（Dify）：</strong>基于 Dify 搭建 Agentic Workflow，打通「多模态输入（文本 / 人脸图片）→ 意图解析 → 槽位填充与人工确认 → 详情聚合 → LLM 生成回答」的完整链路，实现复杂的业务查询交互。</li>
+        <li><strong>MCP 工具链开发（FastMCP）：</strong>基于 Python / FastMCP 协议封装 <strong class="num">9</strong> 个核心工具（身份线索检索、人脸搜索、人体抓拍关联等），屏蔽底层 API 差异，实现大模型与底层业务系统的标准化对接，极大提升工具可复用性。</li>
+        <li><strong>确定性辅助研判（JavaScript）：</strong>在服务端引入 JS 脚本进行参数强校验与确定性逻辑计算（如站点活动频率、跨来源数据印证等），避免大模型直接进行数学计算导致幻觉，确保研判结果严谨。</li>
+        <li><strong>高可用工程架构：</strong>针对多源接口调用采用异步并发（Async IO），并实现部分失败降级策略（如某个人脸接口超时，仍能返回基础身份信息并附带提示）；最终完成基于 Docker 的内网离线交付及全链路联调。</li>
+      </ul>
+      <ul class="tags mono"><li>Dify</li><li>Python / FastMCP</li><li>MCP</li><li>JavaScript</li><li>Docker</li><li>Async IO</li></ul>
+    </article>
+  </section>
+
+  <!-- ================= EDUCATION ================= -->
+  <section class="section" id="education">
+    <header class="section-head">
+      <span class="idx mono">05</span>
+      <h2>教育背景</h2>
+    </header>
+    <div class="edu-grid">
+      <article class="edu">
+        <p class="edu-when mono">2025.09 — 2027.04（预计）</p>
+        <h3>武汉理工大学 × 法国 EFREI</h3>
+        <p class="edu-degree">硕士 · 数据、人工智能与云</p>
+        <p class="edu-note">法国电子与计算机信息工程学院（EFREI）联合培养，方向覆盖数据工程、人工智能与云原生架构。</p>
+      </article>
+      <article class="edu">
+        <p class="edu-when mono">2021.09 — 2025.06</p>
+        <h3>黑龙江科技大学</h3>
+        <p class="edu-degree">本科 · 软件工程</p>
+        <p class="edu-note">系统学习软件工程方法与计算机基础，期间完成两段数据分析与服务端开发实习。</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section" id="contact">
+    <header class="section-head">
+      <span class="idx mono">06</span>
+      <h2>联系我</h2>
+    </header>
+    <div class="contact-box">
+      <p class="contact-lede">正在寻找大模型应用、RAG / Agent 或算法方向的实习与全职机会。如果你在做检索质量、模型微调或数据基建相关的事，欢迎聊聊。</p>
+      <ul class="contact-list">
+        <li>
+          <span class="contact-k mono">email</span>
+          <a href="mailto:fsnn@vip.qq.com">fsnn@vip.qq.com</a>
+        </li>
+        <li>
+          <span class="contact-k mono">phone</span>
+          <a href="tel:+8618106609297">+86 181 0660 9297</a>
+        </li>
+        <li>
+          <span class="contact-k mono">github</span>
+          <a href="https://github.com/hanasakis" target="_blank" rel="noopener">github.com/hanasakis</a>
+        </li>
+        <li>
+          <span class="contact-k mono">instagram</span>
+          <a href="https://www.instagram.com/hanasaki253" target="_blank" rel="noopener">@hanasaki253</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p class="mono">© <span id="year">2026</span> 李建宇 · JIANYU LI</p>
+  <p class="mono footer-note">built with care · rag / agents / vlm</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
