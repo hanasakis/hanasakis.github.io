@@ -365,9 +365,7 @@ main { position: relative; z-index: 1; }
 .photo img {
   display: block;
   width: 100%;
-  aspect-ratio: 1 / 1.02;
-  object-fit: cover;
-  object-position: 50% 22%;
+  height: auto;
 }
 .photo::after {
   content: "";
